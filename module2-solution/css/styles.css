@@ -46,18 +46,8 @@ p {
 	color: white;
 }
 
-.chicken-section{
+.chicken-section, .beef-section,.sushi-section {
 	background: #00FFFF; 
-	margin-bottom: 30px;
-}
-
-.beef-section{
-	background: #2E86C1;
-	margin-bottom: 30px;
-}
-
-.sushi-section{
-	background: #F1C40F;
 	margin-bottom: 30px;
 }
 
