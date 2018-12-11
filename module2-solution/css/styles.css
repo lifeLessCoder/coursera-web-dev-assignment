@@ -10,17 +10,21 @@ h1{
 	font-size: 175%
 }
 
-div > div{
-	border: 1px solid black;
+section{
 	position: relative;
+}
+
+div > section{
+	border: 1px solid black;
 	width: 90%; 
 	margin: auto;
 }
 
-div > span {
+section > span {
 	border: 1px solid black;
 	position: absolute;
-	right: 0;
+	right: -1px;
+	top: -1px;
 	padding: 5px;
 	font-size: 125%;
 }
