@@ -1,0 +1,75 @@
+body {
+	font-size: 16px;
+}
+
+#header-nav {
+	background-color: #1ABC9C;
+}
+
+.navbar-brand {
+	padding-top: auto;
+	padding-bottom: auto;
+}
+
+.navbar-brand h1 {
+	font-size: 1.8em;
+	font-weight: bold;
+	margin-top: 0;
+	margin-bottom: 0;
+	text-shadow: 1px 1px 1px #000;
+	line-height: .75;
+}
+
+.navbar-brand a:hover, .navbar-brand a:focus {
+	text-decoration: none;
+}
+
+#collapsible-nav a {
+	color: #fff;
+}
+
+#nav-list a:hover {
+  background: #A3E4D7;
+}
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+  border: 1px solid #23527c;
+}
+
+#main-content h2 {
+	color: #2E2E2E;
+	margin-top: 10px;
+}
+
+#main-content section {
+	background-color: #8181F7;
+	color: #fff;
+	margin-bottom: 20px;
+}
+
+#main-content .row div:last-child {
+	margin-bottom: 20px;
+}
+
+/* Large devices */
+@media (min-width: 1200px) {
+	
+}
+
+/* Medium devices */
+@media (min-width: 992px) and (max-width: 1199px) {
+	
+}
+
+/* Small devices */
+@media (min-width: 768px) and (max-width: 991px) {
+	
+}
+
+/* Extra small devices */
+@media (max-width: 767px) {
+	#main-content div.row {
+		padding-left: 15px;
+		padding-right: 15px;
+	}
+}
